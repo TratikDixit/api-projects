@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/portfolio' className='navbar-logo' onClick={closeMobileMenu}>
             Home
             <i class='fab fa-typo3' />
           </Link>
@@ -43,7 +43,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to=''
+                to='/portfolio'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
