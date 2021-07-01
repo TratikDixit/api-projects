@@ -8,7 +8,7 @@ function HeroSection() {
     <div className='hero-container'>
       <video src={video} autoPlay loop muted />
       <h1>API-Based Projects</h1>
-      <p>APIs used: CoinGecko | Google Translate API | Rapid API</p>
+      <p>APIs used: CoinGecko | IBM | Unsplash</p>
    
     </div>
   );
