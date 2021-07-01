@@ -3,9 +3,10 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Project from './components/pages/project';
-import SignUp from './components/pages/SignUp';
+import apia from './components/pages/apia';
+import apib from './components/pages/apib';
+import apic from './components/pages/apic';
+import Under from './components/pages/under';
 
 function App() {
   return (
@@ -13,10 +14,12 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/portfolio' exact component={Home} />
-          <Route path='/project' component={Project} />
-          <Route path='/services' component={Services} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/api-projects' exact component={Home} />
+          <Route path='/apia' component={apia} />
+          <Route path='/apib' component={apib} />
+          <Route path='/apic' component={apic} /> 
+          <Route path='/under' component={Under} />    
+   
         </Switch>
       </Router>
     </>

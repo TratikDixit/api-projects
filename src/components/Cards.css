@@ -134,6 +134,8 @@ ul.timeline > li:before {
 }
 #sec2head{
   color: #5271ff;
+  font-size: 40px;
+  font-weight: bold;
 }
 #sec2body{
   color: #4b4c4d;

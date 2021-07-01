@@ -16,8 +16,8 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url();
+.bitcoin {
+  /*background-image: url('./images/bit_bg.png');*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -88,4 +88,8 @@
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
+}
+
+.under{
+  width: 100%;
 }

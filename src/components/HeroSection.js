@@ -7,30 +7,11 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src={video} autoPlay loop muted />
-      <h1>Tratik Dixit</h1>
-      <p>Learning || Growing</p>
+      <h1>API-Based Projects</h1>
+      <p>APIs used: CoinGecko | Google Translate API | Rapid API</p>
    
     </div>
   );
 }
 
 export default HeroSection;
-
-
-   /*<div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          GET STARTED
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
-      </div>*/

@@ -28,30 +28,29 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/portfolio' className='navbar-logo' onClick={closeMobileMenu}>
-            Home
-            <i class='fab fa-typo3' />
-          </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
+       
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/project' className='nav-links' onClick={closeMobileMenu}>
-                Projects
+              <Link to='/apia' className='nav-links' onClick={closeMobileMenu}>
+                BitCoin Price Generator
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/portfolio'
+                to='/under'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                About me
+                Language Translator
               </Link>
-            </li>
-
-           
+              </li>
+              <li>
+              <Link
+                to='/under'  className='nav-links' onClick={closeMobileMenu}
+              >
+                Stream Browser
+              </Link>
+           </li>
           </ul>
         </div>
       </nav>

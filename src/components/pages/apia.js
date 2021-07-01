@@ -1,17 +1,17 @@
 import React from 'react';
 import '../../App.css';
+import Bitcoin from '../Bitcoin';
 
-
-import Cards from '../Cards';
 import Footer from '../Footer';
 
-function Home() {
+function apia() {
   return (
     <>
-      <Cards />
+
+      <Bitcoin />
       <Footer />
     </>
   );
 }
 
-export default Home;
+export default apia;
