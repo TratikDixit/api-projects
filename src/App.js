@@ -14,11 +14,11 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/api-projects' exact component={Home} />
-          <Route path='/apia' component={apia} />
-          <Route path='/apib' component={apib} />
-          <Route path='/apic' component={apic} /> 
-          <Route path='/under' component={Under} />    
+          <Route path={process.env.PUBLIC_URL +'/api-projects'} exact component={Home} />
+          <Route path={process.env.PUBLIC_URL +'/apia'} component={apia} />
+          <Route path={process.env.PUBLIC_URL +'/apib'} component={apib} />
+          <Route path={process.env.PUBLIC_URL +'/apic'} component={apic} /> 
+          <Route path={process.env.PUBLIC_URL +'/under}' component={Under} />    
    
         </Switch>
       </Router>
