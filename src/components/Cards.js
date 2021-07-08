@@ -21,8 +21,7 @@ function Cards() {
               path='/apia'
               text_para= {
              
-				              <p id="sec2body"><br></br> This is a simple API project that makes for RESTFUL APIs.
-It makes use of Coin Desk API and provides the realtime value of the Bitcoin in the world currency of choice.
+				              <p id="sec2body"><br></br>                         It makes use of <em>CoinGecko API</em> and provides the realtime value of the any cyrptocurrency at realtime.
                    </p>
               }
             />     
